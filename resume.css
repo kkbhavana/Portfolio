@@ -1,0 +1,163 @@
+*{
+   margin: 0;
+   padding: 0;
+   outline: none;
+   box-sizing: border-box;
+}
+
+body{
+  background-image: url("background.jpeg");
+   color: aliceblue;
+   background-repeat: none;
+   background-size:  cover;
+    
+}
+
+nav{
+   display:flex;
+   align-items:center;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left :5%;;
+   padding-right: 5%;
+}
+h1{
+   color: rgb(223, 29, 103);
+   font-weight: 500;
+   font-family:'Brush Script MT', cursive;
+   font-size: 50px;
+}
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding:  10px 20px; 
+}
+nav ul li a{
+   color:aliceblue;
+   text-decoration: none;
+}
+
+nav ul li a:hover{
+   color:rgb(223, 29, 103);
+}
+    
+.container{
+   max-width: 1000px;
+   width: 90%;
+   margin:0 auto;
+   display:grid;
+   padding: 60px;
+   margin-top: 40px;
+   grid-template-columns: 1fr 1fr;
+   gap: 4rem;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   backdrop-filter: blur(50px);
+   border: 1px solid aliceblue;
+   line-height: 20px;
+}
+
+.profile{
+   grid-column: 1 / -1;
+   margin-bottom: 2px;
+}
+
+.profile_container{
+   display: flex;
+   gap: 2rem;      
+}
+
+.profile_container a{
+   color: aliceblue;
+}
+
+.profile_container a:hover{
+      color: rgb(223, 29, 103);
+}
+
+.card{
+   width: 10rem;
+   height:max-content;
+   padding: 3px;
+   border-radius: 1px;
+   background-color:rgb(237, 227, 230);
+}
+.profile_container h1{
+   color:rgb(223, 29, 103);
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+h3{
+   color:rgb(223, 29, 103);  
+}
+  
+.group_1 
+.group_2{
+   display: flex;
+   gap: 4rem;
+   
+   
+}
+  @media only screen and (max-width:640px) {
+   .container{
+      width: 90%;
+      grid-template-columns: 1fr;
+      padding: 3rem;
+      gap:7rem
+
+   }
+   
+}
+@media  only screen  and (max-width:640px){
+   .profile_container{
+      flex-direction: column;
+   }
+}
+.group_1 p,.group_2 p{
+   font-size: 12px;
+   color:rgb(154, 151, 152) ;
+}
+.progress-bar{ 
+  background-color:rgb(223, 29, 103);
+
+}
+.progress{
+   height: 7px;
+   border-radius:1px;
+   margin-top: 5px;
+}
+.group_skills ul li {
+   line-height: 30px;
+}
+
+.group_3  .contact ul li{
+  list-style: none;
+  line-height: 25px;
+
+}
+.group_3  .contact a{
+   text-decoration: none;
+   color: aliceblue;
+}
+
+.group_3  .contact a:hover{
+   color: rgb(223, 29, 103);
+}
+.group_4 .social ul li{
+  list-style: none;
+   line-height: 25px;
+   color: aliceblue;
+}
+
+.group_4 .social a{
+   text-decoration: none;
+   color: aliceblue;
+   
+   
+}
+
+
+.group_4 .social a:hover{
+   color: rgb(223, 29, 103);
+}
+
+   

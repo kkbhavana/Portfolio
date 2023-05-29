@@ -1,0 +1,143 @@
+
+*{
+   margin: 0;
+   padding: 0;
+   outline: none;
+   box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   background-image: url("background.jpeg");
+   background-repeat: none;
+   background-size: cover;
+    
+   }
+ nav{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left :5%;;
+    padding-right: 5%;
+ }
+ h1{
+   color: rgb(223, 29, 103);
+   font-weight: 500; 
+   font-family:'Brush Script MT', cursive;
+   font-size: 50px;
+ }
+ 
+ nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding:  10px 20px;
+
+ }
+ nav ul li a{
+    color:aliceblue;
+    text-decoration: none;
+ }
+ nav ul li a:hover{
+    color:rgb(223, 29, 103);
+    transform: scale(1.1);
+ }
+ .container{
+   max-width: 1000px;
+   width: 90%;
+   margin: 0 auto;
+   margin-top:40px ;
+   border: 1px solid aliceblue;
+   backdrop-filter: blur(50px);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 4rem;
+   padding: 40px;
+   
+ }
+.contact_container{
+   display: block;
+   width: 100%;
+   background-color: rgb(52, 51, 51);
+   margin-bottom: 20px;
+   padding: 20px;
+}
+.contact_container:hover{
+   transform: scale(1.1);
+}
+.box1{
+   width: 100%;
+   display: flex;
+   gap: 2rem;
+}
+.box2{
+   width: 100%;
+   display: flex;
+   gap: 2rem;
+
+}
+.box3{
+   width: 100%;
+   display: flex;
+   gap: 2rem;
+}
+.contact_container i{
+   font-size: 40px;
+   color:rgb(223, 29, 103) ;
+}
+
+
+@media  only screen and (max-width: 640px){
+   .container{
+      width: 90%;
+      grid-template-columns: 1fr;
+      padding:3rem;
+      gap: 7rem;
+
+   }
+
+}
+
+h5{
+   color:rgb(223, 29, 103)  ;
+}
+.contact_container a{
+   text-decoration: none;
+   color: aliceblue;
+}
+.message_container{
+   background-color:rgb(52, 51, 51) ;
+   padding: 30px;
+   width: 100%;
+  
+
+}
+.message_container h4{
+   color:rgb(223, 29, 103) ;
+   text-align: center;
+   margin-bottom: 30px;
+}
+.message_box input, textarea{
+   width: 100%;
+   margin-bottom: 15px;
+   font-size: 18px;
+   background-color:rgb(59, 58, 58)  ;
+   padding: 5px;
+   border: none;
+   border-bottom: 2px solid rgb(223, 29, 103)  ;
+
+}
+.send_button input{
+   background-color:rgb(223, 29, 103)  ;
+   color: aliceblue;
+   width: 25%;
+   height: 40px;
+   font-size: 20px;
+   border: none;
+   align-items: center;
+   margin-left: 40%;
+}
+.send_button input:hover{
+   transform: scale(1.2);
+}
+

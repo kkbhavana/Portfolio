@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+   outline: none;
+   box-sizing: border-box;
+}
+
+body {
+   height: 100vh;
+   background-image: url("background.jpeg");
+   background-repeat: none;
+   background-size: cover;
+
+
+}
+
+nav {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 20px;
+   padding-left: 5%;
+   padding-right: 5%;
+}
+
+h1{
+   color:rgb(223, 29, 103) ;
+   font-weight: 500;
+   font-family:'Brush Script MT', cursive;
+   font-size: 50px;
+}
+h4 {
+   color: rgb(223, 29, 103);
+}
+
+nav ul li {
+   list-style-type: none;
+   display: inline-block;
+   padding: 10px 20px;
+
+}
+
+nav ul li a {
+   color: aliceblue;
+   text-decoration: none;
+}
+
+nav ul li a:hover {
+   color: rgb(223, 29, 103);
+}
+
+.container {
+   max-width: 1000px;
+   width: 90%;
+   border: 1px solid aliceblue;
+   margin: 0 auto;
+   padding: 40px;
+   margin-top: 40px;
+   margin-bottom: 20px;
+   color: aliceblue;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   line-height: 25px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 4rem;
+   backdrop-filter: blur(50px);
+   
+}
+
+img {
+   width: 30%;
+   height: 30%;
+   border-radius: 50%;
+   border: 2px solid aliceblue;
+   margin-left: 30%;
+   margin-bottom: 30px;
+}
+
+.progress {
+   height: 5px;
+   border-radius: 1px;
+   margin-bottom: 10px;
+   color: rgb(223, 29, 103);
+}
+
+.progress-bar {
+   background-color: rgb(223, 29, 103);
+}
+
+span {
+   margin-bottom: 5px;
+   font-size: 15px;
+}
+
+@media only screen and (max-width:640px) {
+   .container {
+      width: 90%;
+      grid-template-columns: 1fr;
+      padding: 3rem;
+      gap: 7rem
+   }
+}
+
+.about p{
+   font-style: italic;
+}
+.skills p{
+   margin-bottom: 30px;
+   font-size: 30px;
+   text-align: center;
+}
