@@ -63,11 +63,13 @@ nav ul li a:hover{
 
 .profile_container{
    display: flex;
-   gap: 2rem;      
+   gap: 3rem;      
 }
 
 .profile_container a{
    color: aliceblue;
+   line-height: 30px;
+   text-decoration: none;
 }
 
 .profile_container a:hover{
@@ -129,35 +131,21 @@ h3{
    line-height: 30px;
 }
 
-.group_3  .contact ul li{
+.contact ul li{
   list-style: none;
   line-height: 25px;
 
 }
-.group_3  .contact a{
+.contact a{
    text-decoration: none;
    color: aliceblue;
 }
 
-.group_3  .contact a:hover{
+.contact a:hover{
    color: rgb(223, 29, 103);
 }
-.group_4 .social ul li{
-  list-style: none;
-   line-height: 25px;
-   color: aliceblue;
-}
-
-.group_4 .social a{
-   text-decoration: none;
-   color: aliceblue;
-   
-   
-}
 
 
-.group_4 .social a:hover{
-   color: rgb(223, 29, 103);
-}
+
 
    
