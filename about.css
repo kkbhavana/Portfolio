@@ -32,7 +32,10 @@ h1{
 h4 {
    color: rgb(223, 29, 103);
 }
-
+nav ul {
+   float: right;
+margin: 25px;
+} 
 nav ul li {
    list-style-type: none;
    display: inline-block;
@@ -64,7 +67,7 @@ nav ul li a:hover {
    grid-template-columns: 1fr 1fr;
    gap: 4rem;
    backdrop-filter: blur(50px);
-   
+   margin-bottom: 50px;
 }
 
 img {

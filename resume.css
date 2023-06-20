@@ -6,6 +6,7 @@
 }
 
 body{
+   height: 100vh;
   background-image: url("background.jpeg");
    color: aliceblue;
    background-repeat: none;
@@ -27,6 +28,10 @@ h1{
    font-family:'Brush Script MT', cursive;
    font-size: 50px;
 }
+nav ul {
+   float: right;
+margin: 25px;
+} 
 nav ul li {
    list-style-type: none;
    display: inline-block;
@@ -54,6 +59,7 @@ nav ul li a:hover{
    backdrop-filter: blur(50px);
    border: 1px solid aliceblue;
    line-height: 20px;
+   margin-bottom: 50px;
 }
 
 .profile{
